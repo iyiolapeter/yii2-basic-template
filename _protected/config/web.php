@@ -11,7 +11,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => 'DpqoDR9Wq42Q6MzRiPbr7W4VOXbO699T',
         ],
         // you can set your theme here - template comes with: 'light' and 'dark'
         'view' => [
@@ -20,14 +20,14 @@ $config = [
                 'baseUrl' => '@web/themes/light',
             ],
         ],
-        'assetManager' => [
-            'bundles' => [
-                // we will use bootstrap css from our theme
-                'yii\bootstrap\BootstrapAsset' => [
-                    'css' => [], // do not use yii default one
-                ],
-            ],
-        ],
+        // 'assetManager' => [
+        //     'bundles' => [
+        //         // we will use bootstrap css from our theme
+        //         'yii\bootstrap\BootstrapAsset' => [
+        //             'css' => [], // do not use yii default one
+        //         ],
+        //     ],
+        // ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],

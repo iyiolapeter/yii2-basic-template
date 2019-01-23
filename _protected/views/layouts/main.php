@@ -5,9 +5,9 @@
 use app\assets\AppAsset;
 use app\widgets\Alert;
 use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
-use yii\widgets\Breadcrumbs;
+use yii\bootstrap4\Nav;
+use yii\bootstrap4\NavBar;
+use yii\bootstrap4\Breadcrumbs;
 
 AppAsset::register($this);
 ?>
@@ -30,7 +30,7 @@ AppAsset::register($this);
         'brandLabel' => Yii::t('app', Yii::$app->name),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-default navbar-fixed-top',
+            'class' => 'navbar-expand-lg navbar-light bg-light',
         ],
     ]);
 
@@ -82,8 +82,8 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= Yii::t('app', Yii::$app->name) ?> <?= date('Y') ?></p>
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="float-left">&copy; <?= Yii::t('app', Yii::$app->name) ?> <?= date('Y') ?></p>
+        <p class="float-right"><?= Yii::powered() ?></p>
     </div>
 </footer>
 

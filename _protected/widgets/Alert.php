@@ -7,7 +7,7 @@
 
 namespace app\widgets;
 
-use yii\bootstrap\Widget;
+use yii\bootstrap4\Widget;
 
 /**
  * Alert widget renders a message from session flash. 
@@ -75,7 +75,7 @@ class Alert extends Widget
                     /* assign unique id to each alert box */
                     $this->options['id'] = $this->getId() . '-' . $type . '-' . $i;
 
-                    echo \yii\bootstrap\Alert::widget([
+                    echo \yii\bootstrap4\Alert::widget([
                         'body' => $message,
                         'closeButton' => $this->closeButton,
                         'options' => $this->options,

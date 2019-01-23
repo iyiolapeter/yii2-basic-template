@@ -22,7 +22,7 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@themes';
 
     public $css = [
-        'css/bootstrap.min.css',
+        //'css/bootstrap.min.css',
         'css/style.css',
     ];
 
@@ -31,5 +31,6 @@ class AppAsset extends AssetBundle
 
     public $depends = [
         'yii\web\YiiAsset',
+        'yii\bootstrap4\BootstrapAsset',
     ];
 }

@@ -52,4 +52,9 @@ return [
      * You will send emails to users from this address.
      */
     'supportEmail' => 'support@example.com',
+
+    //------------------------------------//
+    // KRAGEE KARTIK EXTENSIONS & MODULES
+    //------------------------------------//
+    'bsVersion' => '4.x'
 ];

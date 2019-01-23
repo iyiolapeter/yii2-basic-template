@@ -4,7 +4,7 @@
 /* @var $model \app\models\PasswordResetRequestForm */
 
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap4\ActiveForm;
 
 $this->title = Yii::t('app', 'Request password reset');
 $this->params['breadcrumbs'][] = $this->title;
